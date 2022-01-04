@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.txt {
+    margin: 50px 250px;
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    background-color: brown;
+    height: 500px;
+}
+
+@media(max-width:425px) {
+    .txt {
+        margin: 50px 15px;
+        font-size: 25px;
+    }
+}
